@@ -149,7 +149,6 @@ class BitNet(nutszebra_chainer.Model):
         h = self.conv1(x)
         for i in six.moves.range(len(self.out_channels)):
             h = self['bitblock{}'.format(i)](h, train=train)
-            print(h.data.shape)
         h = self.bn_relu_conv(h, train=train)
         num, categories, y, x = h.data.shape
         h = F.reshape(F.average_pooling_2d(h, (y, x)), (num, categories))
