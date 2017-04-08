@@ -53,6 +53,7 @@ if __name__ == '__main__':
                         help='n in https://arxiv.org/abs/1704.00509')
 
     args = parser.parse_args().__dict__
+    print(args)
     lr = args.pop('lr')
     d = args.pop('d')
     k = args.pop('k')
