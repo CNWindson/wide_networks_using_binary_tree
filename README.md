@@ -1,5 +1,5 @@
 # What's this
-Implementation of wide_networks_using_binary_tree [[1]][Paper] by chainer
+Implementation of Wide networks using binary tree [[1]][Paper] by chainer
 
 
 # Dependencies
@@ -41,7 +41,7 @@ Initial learning rate is 0.2 and is multiplied by 0.2 at [60, 120, 160] epochs. 
 <img src="https://github.com/nutszebra/wide_networks_using_binary_tree/blob/master/loss.jpg" alt="loss" title="loss">
 <img src="https://github.com/nutszebra/wide_networks_using_binary_tree/blob/master/accuracy.jpg" alt="total accuracy" title="total accuracy">
 
-# References
-wide_networks_using_binary_tree [[1]][Paper]  
+# References  
+Truncating Wide Networks using Binary Tree Architectures[[1]][Paper]  
 
 [paper]: https://arxiv.org/abs/1704.00509 "Paper"
