@@ -10,7 +10,7 @@ Implementation of Wide networks using binary tree [[1]][Paper] by chainer
     git submodule update
 
 # How to run
-    python main.py -p ./ -g 0 
+    python main.py -p ./ -g 0 -trb 4 -teb 4
 
 # Details about my implementation
 
@@ -35,7 +35,7 @@ Initial learning rate is 0.2 and is multiplied by 0.2 at [60, 120, 160] epochs. 
 | network              | d | k | n | number of parameters      | total accuracy (%) |
 |:---------------------|---|---|---|---------------------------|-------------------:|
 | [[1]][Paper]         | 4 | 6 | 2 | 1.7M                      | 95.23              |
-| my implementation    | 4 | 6 | 2 | 1.67M                     | 94.76               |
+| my implementation    | 4 | 6 | 2 | 1.67M                     | 94.82              |
 
 
 <img src="https://github.com/nutszebra/wide_networks_using_binary_tree/blob/master/loss.jpg" alt="loss" title="loss">
